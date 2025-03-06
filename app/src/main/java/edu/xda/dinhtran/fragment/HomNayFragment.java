@@ -67,7 +67,7 @@ public class HomNayFragment extends Fragment {
     public void getChi(){
         Cursor cursor = database.GetDate("SELECT * FROM chi WHERE deleteFlag = '0'");
         int usd = 0;
-        int toVnd = 23255;
+        int toVnd = 25000;
         int vnd = 0;
         int vietNamDong = 0;
         while (cursor.moveToNext()) {
@@ -95,7 +95,7 @@ public class HomNayFragment extends Fragment {
     public void getThu(){
         Cursor cursor = database.GetDate("SELECT * FROM thu WHERE deleteFlag = '0'");
         int usd = 0;
-        int toVnd = 23255;
+        int toVnd = 25000;
         int vnd = 0;
         int vietNamDong = 0;
         while (cursor.moveToNext()) {
