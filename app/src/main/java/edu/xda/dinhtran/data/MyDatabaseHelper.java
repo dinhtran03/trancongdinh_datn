@@ -21,6 +21,8 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
     private static final String TABLE_USER = "User";
     private static final String COLUMN_USER_NAME = "username";
     private static final String COLUMN_USER_PASSWORD = "password";
+    private static final String COLUMN_USER_ID = "id";
+    private static final String COLUMN_USER_EMAIL = "email";
 
     private static final String CREATE_CLASS_TABLE_USER = "CREATE TABLE " + TABLE_USER + "(" + COLUMN_USER_NAME + " TEXT," + COLUMN_USER_PASSWORD + " TEXT" + ")";
 
@@ -57,7 +59,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         return check;
     }
 
-    // ---Table Khoan Thu---
+    // ---Table Loai Thu---
     private static final String KEY_NAME_TABLE_LOAITHU = "loaithu";
     private static final String KEY_TABLE_ID_LOAITHU = "id";
     private static final String KEY_TABLE_NAME_LOAITHU = "tenLoaiThu";
