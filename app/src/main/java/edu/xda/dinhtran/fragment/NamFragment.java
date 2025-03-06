@@ -78,9 +78,9 @@ public class NamFragment extends Fragment {
 
         arrayList = new ArrayList<>();
         arrayList.add(new ThangNam(1, "Chọn năm"));
-        arrayList.add(new ThangNam(1, "2020"));
-        arrayList.add(new ThangNam(1, "2021"));
-        arrayList.add(new ThangNam(1, "2022"));
+        arrayList.add(new ThangNam(1, "2023"));
+        arrayList.add(new ThangNam(1, "2024"));
+        arrayList.add(new ThangNam(1, "2025"));
         spAdapter adapter = new spAdapter(getContext(), arrayList);
         spinner.setAdapter(adapter);
     }
